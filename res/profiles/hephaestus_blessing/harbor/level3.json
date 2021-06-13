@@ -1,0 +1,19 @@
+{
+    "farm" : 30,
+    "timber" : 25,
+    "silver_mine" : 20,
+    "quarry" : 20,
+    "harbor" : 25,
+    "barracks" : 12,
+    "academy" : 12,
+    "temple" : 16,
+    "city_wall" : 0,
+    "warehouse" : 25,
+    "market" : 15,
+    "cave" : 8,
+    "senate" : 20,
+    "units" : [{
+        "type" : "bireme",
+        "number" : 8
+    }]
+}

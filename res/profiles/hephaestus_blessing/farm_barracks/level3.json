@@ -1,0 +1,19 @@
+{
+    "farm" : 30,
+    "timber" : 22,
+    "silver_mine" : 26,
+    "quarry" : 24,
+    "harbor" : 12,
+    "barracks" : 20,
+    "academy" : 14,
+    "temple" : 16,
+    "city_wall" : 0,
+    "warehouse" : 25,
+    "market" : 15,
+    "cave" : 8,
+    "senate" : 22,
+    "units" : [{
+        "type" : "hoplite",
+        "number" : 64
+    }]
+}

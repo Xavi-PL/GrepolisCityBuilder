@@ -1,0 +1,125 @@
+{
+    "land" : {
+        "swordsmen" : {
+            "poblation": 1
+        },
+        "slinger" : {
+            "poblation": 1
+        },
+        "archer" : {
+            "poblation": 1
+        },
+        "hoplite" : {
+            "poblation": 1
+        },
+        "horseman" : {
+            "poblation": 3
+        },
+        "chariot" : {
+            "poblation": 4
+        },
+        "catapult" : {
+            "poblation": 15
+        },
+        "divine_envoy" : {
+            "poblation" : 3
+        }
+    },
+    "sea" : {
+        "transport_boat" : {
+            "poblation" : 7
+        },
+        "bireme" : {
+            "poblation" : 8
+        },
+        "light_ship" : {
+            "poblation" : 10
+        },
+        "fire_ship" : {
+            "poblation" : 8
+        },
+        "fast_transport_boat" : {
+            "poblation" : 5
+        },
+        "trireme" : {
+            "poblation" : 16
+        },
+        "colony_ship" : {
+            "poblation" : 170
+        }
+    },
+    "mytical" : {
+        "zeus" : {
+            "minotaur" : {
+                "poblation" : 30
+            },
+            "maticore" : {
+                "poblation" : 45,
+                "bonus" : "flyer"
+            }
+        },
+        "athena" : {
+            "centaur" : {
+                "poblation" : 12
+            },
+            "pegasus" : {
+                "poblation" : 20,
+                "bonus" : "flyer"
+            }
+        },
+        "hera" : {
+            "harpy" : {
+                "poblation" : 14,
+                "bonus" : "flyer"
+            },
+            "medusa" : {
+                "poblation" : 18
+            }
+        },
+        "poseidon" : {
+            "cyclop" : {
+                "poblation" : 40
+            },
+            "hydra" : {
+                "poblation" : 50,
+                "bonus" : "sea"
+            }
+        },
+        "hades" : {
+            "cerberus" : {
+                "poblation" : 30
+            },
+            "erinys" : {
+                "poblation" : 55
+            }
+        },
+        "artemis" : {
+            "griffin" : {
+                "poblation" : 35,
+                "bonus" : "flyer"
+            },
+            "calydonian_board" : {
+                "poblation" : 20
+            }
+        },
+        "aphrodite" : {
+            "satyr" : {
+                "poblation" : 16
+            },
+            "siren" : {
+                "poblation" : 16,
+                "bonus" : "sea"
+            }
+        },
+        "ares" : {
+            "ladon" : {
+                "poblation" : 180,
+                "bonus" : "flyer"
+            },
+            "spartoi" : {
+                "poblation" : 10,
+                "bonus" : "one_in_ship"
+            }
+        }
+    }
+}

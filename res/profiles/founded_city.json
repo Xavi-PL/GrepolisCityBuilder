@@ -1,0 +1,11 @@
+{
+    "senate" : 10,
+    "timber": 15,
+    "quarry" : 15,
+    "silver_mine" : 12,
+    "farm" : 10,
+    "warehouse" : 10,
+    "barracks" : 4,
+    "temple" : 1,
+    "market_place" : 2
+}

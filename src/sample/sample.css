@@ -1,0 +1,21 @@
+#spnBonusPoblation .increment-arrow-button,
+#spnBonusPoblation .decrement-arrow-button {
+    -fx-padding: 1 2 1 2;
+}
+
+.text-field {
+    -fx-background-radius: 10px;
+}
+
+.spinner {
+    -fx-font-size: 10;
+    -fx-background-radius: 10px;
+}
+
+.spinner .text-field {
+    -fx-background-radius: 10 0 0 10;
+}
+
+.check-box {
+    -fx-background-radius: 10px;
+}

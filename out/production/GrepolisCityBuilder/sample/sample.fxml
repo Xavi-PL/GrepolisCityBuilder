@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: linear-gradient(from 50% 50% to 100% 100%, #EEC97C, #FFEDC5);" stylesheets="@sample.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <HBox prefHeight="50.0" prefWidth="1280.0" style="-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589)660;" />
+      <VBox layoutX="25.0" layoutY="75.0" prefHeight="400.0" prefWidth="650.0" spacing="25.0" style="-fx-background-color: #F9DAA4; -fx-background-radius: 10;">
+         <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="650.0" style="-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589); -fx-background-radius: 10 10 0 0;">
+               <padding>
+                  <Insets left="15.0" />
+               </padding>
+               <children>
+                  <Label fx:id="tagCityBuilder" text="#CITY_BUILDER" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <VBox alignment="CENTER" prefHeight="300.0" prefWidth="650.0" spacing="15.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="60.0" prefWidth="200.0" spacing="12.0">
+                     <children>
+                        <HBox prefHeight="60.0" prefWidth="140.0" spacing="5.0" style="-fx-background-radius: 10; -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589);">
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                           <children>
+                              <Rectangle fx:id="iconSenate" arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="50.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="50.0" />
+                              <VBox prefHeight="200.0" prefWidth="100.0" spacing="4.0">
+                                 <children>
+                                    <Label alignment="CENTER" prefHeight="22.0" prefWidth="75.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 10;" text="#SENATE" textAlignment="CENTER">
+                                       <padding>
+                                          <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                                       </padding>
+                                    </Label>
+                                    <Spinner fx:id="spnSenate" prefHeight="22.0" prefWidth="75.0" />
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="60.0" prefWidth="200.0" spacing="12.0">
+                     <children>
+                        <HBox prefHeight="60.0" prefWidth="140.0" spacing="5.0" style="-fx-background-radius: 10; -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589);">
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                           <children>
+                              <Rectangle fx:id="iconTimber" arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="50.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="50.0" />
+                              <VBox prefHeight="200.0" prefWidth="100.0" spacing="4.0">
+                                 <children>
+                                    <Label alignment="CENTER" prefHeight="22.0" prefWidth="75.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 10;" text="#SENATE" textAlignment="CENTER">
+                                       <padding>
+                                          <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                                       </padding>
+                                    </Label>
+                                    <Spinner fx:id="spnTimber" prefHeight="22.0" prefWidth="75.0" />
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="60.0" prefWidth="140.0" spacing="5.0" style="-fx-background-radius: 10; -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589);">
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                           <children>
+                              <Rectangle fx:id="iconFarm" arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="50.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="50.0" />
+                              <VBox prefHeight="200.0" prefWidth="100.0" spacing="4.0">
+                                 <children>
+                                    <Label alignment="CENTER" prefHeight="22.0" prefWidth="75.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 10;" text="#SENATE" textAlignment="CENTER">
+                                       <padding>
+                                          <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                                       </padding>
+                                    </Label>
+                                    <Spinner fx:id="spnFarm" prefHeight="22.0" prefWidth="75.0" />
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="60.0" prefWidth="140.0" spacing="5.0" style="-fx-background-radius: 10; -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589);">
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                           <children>
+                              <Rectangle fx:id="iconQuarry" arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="50.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="50.0" />
+                              <VBox prefHeight="200.0" prefWidth="100.0" spacing="4.0">
+                                 <children>
+                                    <Label alignment="CENTER" prefHeight="22.0" prefWidth="75.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 10;" text="#SENATE" textAlignment="CENTER">
+                                       <padding>
+                                          <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                                       </padding>
+                                    </Label>
+                                    <Spinner fx:id="spnQuarry" prefHeight="22.0" prefWidth="75.0" />
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="60.0" prefWidth="140.0" spacing="5.0" style="-fx-background-radius: 10; -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589);">
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                           <children>
+                              <Rectangle fx:id="iconWarehouse" arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="50.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="50.0" />
+                              <VBox prefHeight="200.0" prefWidth="100.0" spacing="4.0">
+                                 <children>
+                                    <Label alignment="CENTER" prefHeight="22.0" prefWidth="75.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 10;" text="#SENATE" textAlignment="CENTER">
+                                       <padding>
+                                          <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                                       </padding>
+                                    </Label>
+                                    <Spinner fx:id="spnWarehouse" prefHeight="22.0" prefWidth="75.0" />
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="60.0" prefWidth="200.0" spacing="12.0">
+                     <children>
+                        <HBox prefHeight="60.0" prefWidth="140.0" spacing="5.0" style="-fx-background-radius: 10; -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589);">
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                           <children>
+                              <Rectangle fx:id="iconSilverMine" arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="50.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="50.0" />
+                              <VBox prefHeight="200.0" prefWidth="100.0" spacing="4.0">
+                                 <children>
+                                    <Label alignment="CENTER" prefHeight="22.0" prefWidth="75.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 10;" text="#SENATE" textAlignment="CENTER">
+                                       <padding>
+                                          <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                                       </padding>
+                                    </Label>
+                                    <Spinner fx:id="spnSilverMine" prefHeight="22.0" prefWidth="75.0" />
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="60.0" prefWidth="140.0" spacing="5.0" style="-fx-background-radius: 10; -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589);">
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                           <children>
+                              <Rectangle fx:id="iconBarracks" arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="50.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="50.0" />
+                              <VBox prefHeight="200.0" prefWidth="100.0" spacing="4.0">
+                                 <children>
+                                    <Label alignment="CENTER" prefHeight="22.0" prefWidth="75.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 10;" text="#SENATE" textAlignment="CENTER">
+                                       <padding>
+                                          <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                                       </padding>
+                                    </Label>
+                                    <Spinner fx:id="spnBarracks" prefHeight="22.0" prefWidth="75.0" />
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="60.0" prefWidth="140.0" spacing="5.0" style="-fx-background-radius: 10; -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589);">
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                           <children>
+                              <Rectangle fx:id="iconTemple" arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="50.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="50.0" />
+                              <VBox prefHeight="200.0" prefWidth="100.0" spacing="4.0">
+                                 <children>
+                                    <Label alignment="CENTER" prefHeight="22.0" prefWidth="75.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 10;" text="#SENATE" textAlignment="CENTER">
+                                       <padding>
+                                          <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                                       </padding>
+                                    </Label>
+                                    <Spinner fx:id="spnTemple" prefHeight="22.0" prefWidth="75.0" />
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="60.0" prefWidth="140.0" spacing="5.0" style="-fx-background-radius: 10; -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589);">
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                           <children>
+                              <Rectangle fx:id="iconMarket" arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="50.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="50.0" />
+                              <VBox prefHeight="200.0" prefWidth="100.0" spacing="4.0">
+                                 <children>
+                                    <Label alignment="CENTER" prefHeight="22.0" prefWidth="75.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 10;" text="#SENATE" textAlignment="CENTER">
+                                       <padding>
+                                          <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                                       </padding>
+                                    </Label>
+                                    <Spinner fx:id="spnMarket" prefHeight="22.0" prefWidth="75.0" />
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="60.0" prefWidth="200.0" spacing="12.0">
+                     <children>
+                        <HBox prefHeight="60.0" prefWidth="140.0" spacing="5.0" style="-fx-background-radius: 10; -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589);">
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                           <children>
+                              <Rectangle fx:id="iconHarbor" arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="50.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="50.0" />
+                              <VBox prefHeight="200.0" prefWidth="100.0" spacing="4.0">
+                                 <children>
+                                    <Label alignment="CENTER" prefHeight="22.0" prefWidth="75.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 10;" text="#SENATE" textAlignment="CENTER">
+                                       <padding>
+                                          <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                                       </padding>
+                                    </Label>
+                                    <Spinner fx:id="spnHarbor" prefHeight="22.0" prefWidth="75.0" />
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="60.0" prefWidth="140.0" spacing="5.0" style="-fx-background-radius: 10; -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589);">
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                           <children>
+                              <Rectangle fx:id="iconAcademy" arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="50.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="50.0" />
+                              <VBox prefHeight="200.0" prefWidth="100.0" spacing="4.0">
+                                 <children>
+                                    <Label alignment="CENTER" prefHeight="22.0" prefWidth="75.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 10;" text="#SENATE" textAlignment="CENTER">
+                                       <padding>
+                                          <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                                       </padding>
+                                    </Label>
+                                    <Spinner fx:id="spnAcademy" prefHeight="22.0" prefWidth="75.0" />
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="60.0" prefWidth="140.0" spacing="5.0" style="-fx-background-radius: 10; -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589);">
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                           <children>
+                              <Rectangle fx:id="iconCityWall" arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="50.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="50.0" />
+                              <VBox prefHeight="200.0" prefWidth="100.0" spacing="4.0">
+                                 <children>
+                                    <Label alignment="CENTER" prefHeight="22.0" prefWidth="75.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 10;" text="#SENATE" textAlignment="CENTER">
+                                       <padding>
+                                          <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                                       </padding>
+                                    </Label>
+                                    <Spinner fx:id="spnCityWall" prefHeight="22.0" prefWidth="75.0" />
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="60.0" prefWidth="140.0" spacing="5.0" style="-fx-background-radius: 10; -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589);">
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                           <children>
+                              <Rectangle fx:id="iconCave" arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="50.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="50.0" />
+                              <VBox prefHeight="200.0" prefWidth="100.0" spacing="4.0">
+                                 <children>
+                                    <Label alignment="CENTER" prefHeight="22.0" prefWidth="75.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 10;" text="#SENATE" textAlignment="CENTER">
+                                       <padding>
+                                          <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                                       </padding>
+                                    </Label>
+                                    <Spinner fx:id="spnCave" prefHeight="22.0" prefWidth="75.0" />
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+         <padding>
+            <Insets bottom="25.0" />
+         </padding>
+      </VBox>
+      <VBox layoutX="14.0" layoutY="495.0" prefHeight="200.0" prefWidth="315.0" spacing="25.0" style="-fx-background-color: #F9DAA4; -fx-background-radius: 10;">
+         <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="650.0" style="-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589); -fx-background-radius: 10 10 0 0;">
+               <padding>
+                  <Insets left="15.0" />
+               </padding>
+               <children>
+                  <Label fx:id="tagCityBuilder1" text="#SPECIAL_BUILDING_1" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" minHeight="100.0" prefHeight="100.0" prefWidth="200.0" spacing="12.0">
+               <children>
+                  <VBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="60.0" spacing="13.0" style="-fx-background-radius: 10; -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589);">
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <children>
+                        <Rectangle fx:id="iconTheatre" arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="50.0" stroke="#f86d6d" strokeType="INSIDE" strokeWidth="0.0" width="50.0" />
+                        <CheckBox fx:id="ckbTheatre" mnemonicParsing="false" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="60.0" spacing="13.0" style="-fx-background-radius: 10; -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589);">
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <children>
+                        <Rectangle fx:id="iconThermalBaths" arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="50.0" stroke="#f86d6d" strokeType="INSIDE" strokeWidth="0.0" width="50.0" />
+                        <CheckBox fx:id="ckbThermalBaths" mnemonicParsing="false" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="60.0" spacing="13.0" style="-fx-background-radius: 10; -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589);">
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <children>
+                        <Rectangle fx:id="iconLibrary" arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="50.0" stroke="#f86d6d" strokeType="INSIDE" strokeWidth="0.0" width="50.0" />
+                        <CheckBox fx:id="ckbLibrary" mnemonicParsing="false" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="60.0" spacing="13.0" style="-fx-background-radius: 10; -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589);">
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <children>
+                        <Rectangle fx:id="iconLighthouse" arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="50.0" stroke="#f86d6d" strokeType="INSIDE" strokeWidth="0.0" width="50.0" />
+                        <CheckBox fx:id="ckbLighthouse" mnemonicParsing="false" />
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+         <padding>
+            <Insets bottom="25.0" />
+         </padding>
+      </VBox>
+      <VBox layoutX="360.0" layoutY="495.0" prefHeight="200.0" prefWidth="315.0" spacing="25.0" style="-fx-background-color: #F9DAA4; -fx-background-radius: 10;">
+         <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="650.0" style="-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589); -fx-background-radius: 10 10 0 0;">
+               <padding>
+                  <Insets left="15.0" />
+               </padding>
+               <children>
+                  <Label fx:id="tagCityBuilder11" text="#SPECIAL_BUILDING_2" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" minHeight="100.0" prefHeight="100.0" prefWidth="200.0" spacing="12.0">
+               <children>
+                  <VBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="60.0" spacing="13.0" style="-fx-background-radius: 10; -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589);">
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <children>
+                        <Rectangle fx:id="iconTower" arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="50.0" stroke="#f86d6d" strokeType="INSIDE" strokeWidth="0.0" width="50.0" />
+                        <CheckBox fx:id="ckbTower" mnemonicParsing="false" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="60.0" spacing="13.0" style="-fx-background-radius: 10; -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589);">
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <children>
+                        <Rectangle fx:id="iconDivineStatue" arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="50.0" stroke="#f86d6d" strokeType="INSIDE" strokeWidth="0.0" width="50.0" />
+                        <CheckBox fx:id="ckbDivineStatue" mnemonicParsing="false" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="60.0" spacing="13.0" style="-fx-background-radius: 10; -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589);">
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <children>
+                        <Rectangle fx:id="iconOracle" arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="50.0" stroke="#f86d6d" strokeType="INSIDE" strokeWidth="0.0" width="50.0" />
+                        <CheckBox fx:id="ckbOracle" mnemonicParsing="false" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="60.0" spacing="13.0" style="-fx-background-radius: 10; -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589);">
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <children>
+                        <Rectangle fx:id="iconMerchants" arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="50.0" stroke="#f86d6d" strokeType="INSIDE" strokeWidth="0.0" width="50.0" />
+                        <CheckBox fx:id="ckbMerchants" mnemonicParsing="false" />
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+         <padding>
+            <Insets bottom="25.0" />
+         </padding>
+      </VBox>
+      <VBox alignment="TOP_CENTER" layoutX="695.0" layoutY="75.0" prefHeight="620.0" prefWidth="100.0" spacing="14.0" style="-fx-background-radius: 10; -fx-background-color: #F9DAA4;">
+         <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="650.0" style="-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589); -fx-background-radius: 10 10 0 0;">
+               <padding>
+                  <Insets left="15.0" />
+               </padding>
+               <children>
+                  <Label fx:id="tagCityBuilder111" text="#GOD" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <Rectangle fx:id="iconZeus" arcHeight="360.0" arcWidth="360.0" fill="DODGERBLUE" height="55.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="55.0" />
+            <Rectangle fx:id="iconAthena" arcHeight="360.0" arcWidth="360.0" fill="DODGERBLUE" height="55.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="55.0" />
+            <Rectangle fx:id="iconPoseidon" arcHeight="360.0" arcWidth="360.0" fill="DODGERBLUE" height="55.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="55.0" />
+            <Rectangle fx:id="iconHera" arcHeight="360.0" arcWidth="360.0" fill="DODGERBLUE" height="55.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="55.0" />
+            <Rectangle fx:id="iconHades" arcHeight="360.0" arcWidth="360.0" fill="DODGERBLUE" height="55.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="55.0" />
+            <Rectangle fx:id="iconArtemis" arcHeight="360.0" arcWidth="360.0" fill="DODGERBLUE" height="55.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="55.0" />
+            <Rectangle fx:id="iconAphrodite" arcHeight="360.0" arcWidth="360.0" fill="DODGERBLUE" height="55.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="55.0" />
+            <Rectangle fx:id="iconAres" arcHeight="360.0" arcWidth="360.0" fill="DODGERBLUE" height="55.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="55.0" />
+         </children>
+      </VBox>
+      <VBox layoutX="815.0" layoutY="75.0" prefHeight="470.0" prefWidth="440.0" spacing="25.0" style="-fx-background-color: #F9DAA4; -fx-background-radius: 10;">
+         <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="650.0" style="-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589); -fx-background-radius: 10 10 0 0;">
+               <padding>
+                  <Insets left="15.0" />
+               </padding>
+               <children>
+                  <Label fx:id="tagCityBuilder2" text="#ARMY_BUILDER" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <VBox alignment="CENTER" prefHeight="370.0" prefWidth="440.0" spacing="30.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="90.0" prefWidth="200.0" spacing="5.0">
+                     <children>
+                        <VBox prefHeight="90.0" prefWidth="55.0" spacing="5.0" style="-fx-background-radius: 10; -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589);">
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                           <children>
+                              <Rectangle fx:id="iconSwordsman" arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="45.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="45.0" />
+                              <TextField fx:id="tfSwordsman" maxHeight="15.0" prefHeight="15.0">
+                                 <font>
+                                    <Font size="7.0" />
+                                 </font>
+                              </TextField>
+                              <TextField fx:id="maxSwordsman" editable="false" maxHeight="15.0" prefHeight="15.0">
+                                 <font>
+                                    <Font size="7.0" />
+                                 </font>
+                              </TextField>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="90.0" prefWidth="55.0" spacing="5.0" style="-fx-background-radius: 10; -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589);">
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                           <children>
+                              <Rectangle fx:id="iconSlinger" arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="45.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="45.0" />
+                              <TextField fx:id="tfSlinger" maxHeight="15.0" prefHeight="15.0">
+                                 <font>
+                                    <Font size="7.0" />
+                                 </font>
+                              </TextField>
+                              <TextField fx:id="maxSlinger" editable="false" maxHeight="15.0" prefHeight="15.0">
+                                 <font>
+                                    <Font size="7.0" />
+                                 </font>
+                              </TextField>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="90.0" prefWidth="55.0" spacing="5.0" style="-fx-background-radius: 10; -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589);">
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                           <children>
+                              <Rectangle fx:id="iconArcher" arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="45.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="45.0" />
+                              <TextField fx:id="tfArcher" maxHeight="15.0" prefHeight="15.0">
+                                 <font>
+                                    <Font size="7.0" />
+                                 </font>
+                              </TextField>
+                              <TextField fx:id="maxArcher" editable="false" maxHeight="15.0" prefHeight="15.0">
+                                 <font>
+                                    <Font size="7.0" />
+                                 </font>
+                              </TextField>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="90.0" prefWidth="55.0" spacing="5.0" style="-fx-background-radius: 10; -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589);">
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                           <children>
+                              <Rectangle fx:id="iconHoplite" arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="45.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="45.0" />
+                              <TextField fx:id="tfHoplite" maxHeight="15.0" prefHeight="15.0">
+                                 <font>
+                                    <Font size="7.0" />
+                                 </font>
+                              </TextField>
+                              <TextField fx:id="maxHoplite" editable="false" maxHeight="15.0" prefHeight="15.0">
+                                 <font>
+                                    <Font size="7.0" />
+                                 </font>
+                              </TextField>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="90.0" prefWidth="55.0" spacing="5.0" style="-fx-background-radius: 10; -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589);">
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                           <children>
+                              <Rectangle fx:id="iconHorseman" arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="45.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="45.0" />
+                              <TextField fx:id="tfHorseman" maxHeight="15.0" prefHeight="15.0">
+                                 <font>
+                                    <Font size="7.0" />
+                                 </font>
+                              </TextField>
+                              <TextField fx:id="maxHorseman" editable="false" maxHeight="15.0" prefHeight="15.0">
+                                 <font>
+                                    <Font size="7.0" />
+                                 </font>
+                              </TextField>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="90.0" prefWidth="55.0" spacing="5.0" style="-fx-background-radius: 10; -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589);">
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                           <children>
+                              <Rectangle fx:id="iconChariot" arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="45.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="45.0" />
+                              <TextField fx:id="tfChariot" maxHeight="15.0" prefHeight="15.0">
+                                 <font>
+                                    <Font size="7.0" />
+                                 </font>
+                              </TextField>
+                              <TextField fx:id="maxChariot" editable="false" maxHeight="15.0" prefHeight="15.0">
+                                 <font>
+                                    <Font size="7.0" />
+                                 </font>
+                              </TextField>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="90.0" prefWidth="55.0" spacing="5.0" style="-fx-background-radius: 10; -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589);">
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                           <children>
+                              <Rectangle fx:id="iconCatapult" arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="45.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="45.0" />
+                              <TextField fx:id="tfCatapult" maxHeight="15.0" prefHeight="15.0">
+                                 <font>
+                                    <Font size="7.0" />
+                                 </font>
+                              </TextField>
+                              <TextField fx:id="maxCatapult" editable="false" maxHeight="15.0" prefHeight="15.0">
+                                 <font>
+                                    <Font size="7.0" />
+                                 </font>
+                              </TextField>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="90.0" prefWidth="200.0" spacing="5.0">
+                     <children>
+                        <VBox prefHeight="90.0" prefWidth="55.0" spacing="5.0" style="-fx-background-radius: 10; -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589);">
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                           <children>
+                              <Rectangle fx:id="iconBireme" arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="45.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="45.0" />
+                              <TextField fx:id="tfBireme" maxHeight="15.0" prefHeight="15.0">
+                                 <font>
+                                    <Font size="7.0" />
+                                 </font>
+                              </TextField>
+                              <TextField fx:id="maxBireme" editable="false" maxHeight="15.0" prefHeight="15.0">
+                                 <font>
+                                    <Font size="7.0" />
+                                 </font>
+                              </TextField>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="90.0" prefWidth="55.0" spacing="5.0" style="-fx-background-radius: 10; -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589);">
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                           <children>
+                              <Rectangle fx:id="iconLightShip" arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="45.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="45.0" />
+                              <TextField fx:id="tfLightShip" maxHeight="15.0" prefHeight="15.0">
+                                 <font>
+                                    <Font size="7.0" />
+                                 </font>
+                              </TextField>
+                              <TextField fx:id="maxLightShip" editable="false" maxHeight="15.0" prefHeight="15.0">
+                                 <font>
+                                    <Font size="7.0" />
+                                 </font>
+                              </TextField>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="90.0" prefWidth="55.0" spacing="5.0" style="-fx-background-radius: 10; -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589);">
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                           <children>
+                              <Rectangle fx:id="iconTrireme" arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="45.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="45.0" />
+                              <TextField fx:id="tfTrireme" maxHeight="15.0" prefHeight="15.0">
+                                 <font>
+                                    <Font size="7.0" />
+                                 </font>
+                              </TextField>
+                              <TextField fx:id="maxTrireme" editable="false" maxHeight="15.0" prefHeight="15.0">
+                                 <font>
+                                    <Font size="7.0" />
+                                 </font>
+                              </TextField>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="90.0" prefWidth="55.0" spacing="5.0" style="-fx-background-radius: 10; -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589);">
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                           <children>
+                              <Rectangle fx:id="iconFireShip" arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="45.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="45.0" />
+                              <TextField fx:id="tfFireShip" maxHeight="15.0" prefHeight="15.0">
+                                 <font>
+                                    <Font size="7.0" />
+                                 </font>
+                              </TextField>
+                              <TextField fx:id="maxFireShip" editable="false" maxHeight="15.0" prefHeight="15.0">
+                                 <font>
+                                    <Font size="7.0" />
+                                 </font>
+                              </TextField>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="90.0" prefWidth="55.0" spacing="5.0" style="-fx-background-radius: 10; -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589);">
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                           <children>
+                              <Rectangle fx:id="iconColony" arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="45.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="45.0" />
+                              <TextField fx:id="tfColony" maxHeight="15.0" prefHeight="15.0">
+                                 <font>
+                                    <Font size="7.0" />
+                                 </font>
+                              </TextField>
+                              <TextField fx:id="maxColony" editable="false" maxHeight="15.0" prefHeight="15.0">
+                                 <font>
+                                    <Font size="7.0" />
+                                 </font>
+                              </TextField>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="90.0" prefWidth="55.0" spacing="5.0" style="-fx-background-radius: 10; -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589);">
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                           <children>
+                              <Rectangle fx:id="iconSlowBoat" arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="45.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="45.0" />
+                              <TextField fx:id="tfSlowBoat" maxHeight="15.0" prefHeight="15.0">
+                                 <font>
+                                    <Font size="7.0" />
+                                 </font>
+                              </TextField>
+                              <TextField fx:id="maxSlowBoat" editable="false" maxHeight="15.0" prefHeight="15.0">
+                                 <font>
+                                    <Font size="7.0" />
+                                 </font>
+                              </TextField>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="90.0" prefWidth="55.0" spacing="5.0" style="-fx-background-radius: 10; -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589);">
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                           <children>
+                              <Rectangle fx:id="iconFastBoat" arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="45.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="45.0" />
+                              <TextField fx:id="tfFastBoat" maxHeight="15.0" prefHeight="15.0">
+                                 <font>
+                                    <Font size="7.0" />
+                                 </font>
+                              </TextField>
+                              <TextField fx:id="maxFastBoat" editable="false" maxHeight="15.0" prefHeight="15.0">
+                                 <font>
+                                    <Font size="7.0" />
+                                 </font>
+                              </TextField>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="90.0" prefWidth="200.0" spacing="5.0">
+                     <children>
+                        <VBox prefHeight="90.0" prefWidth="55.0" spacing="5.0" style="-fx-background-radius: 10; -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589);">
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                           <children>
+                              <Rectangle fx:id="iconDivineEnvoy" arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="45.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="45.0" />
+                              <TextField fx:id="tfDivineEnvoy" maxHeight="15.0" prefHeight="15.0">
+                                 <font>
+                                    <Font size="7.0" />
+                                 </font>
+                              </TextField>
+                              <TextField fx:id="maxDivineEnvoy" editable="false" maxHeight="15.0" prefHeight="15.0">
+                                 <font>
+                                    <Font size="7.0" />
+                                 </font>
+                              </TextField>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="90.0" prefWidth="55.0" spacing="5.0" style="-fx-background-radius: 10; -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589);">
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                           <children>
+                              <Rectangle fx:id="iconMyth1" arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="45.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="45.0" />
+                              <TextField fx:id="tfMyth1" maxHeight="15.0" prefHeight="15.0">
+                                 <font>
+                                    <Font size="7.0" />
+                                 </font>
+                              </TextField>
+                              <TextField fx:id="maxMyth1" editable="false" maxHeight="15.0" prefHeight="15.0">
+                                 <font>
+                                    <Font size="7.0" />
+                                 </font>
+                              </TextField>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="90.0" prefWidth="55.0" spacing="5.0" style="-fx-background-radius: 10; -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589);">
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                           <children>
+                              <Rectangle fx:id="iconMyth2" arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="45.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="45.0" />
+                              <TextField fx:id="tfMyth2" maxHeight="15.0" prefHeight="15.0">
+                                 <font>
+                                    <Font size="7.0" />
+                                 </font>
+                              </TextField>
+                              <TextField fx:id="maxMyth2" editable="false" maxHeight="15.0" prefHeight="15.0">
+                                 <font>
+                                    <Font size="7.0" />
+                                 </font>
+                              </TextField>
+                           </children>
+                        </VBox>
+                     </children>
+                     <padding>
+                        <Insets left="3.0" />
+                     </padding>
+                  </HBox>
+               </children>
+               <padding>
+                  <Insets left="10.0" right="10.0" />
+               </padding>
+            </VBox>
+         </children>
+         <padding>
+            <Insets bottom="25.0" />
+         </padding>
+      </VBox>
+      <VBox layoutX="815.0" layoutY="565.0" prefHeight="130.0" prefWidth="225.0" spacing="8.0" style="-fx-background-color: #F9DAA4; -fx-background-radius: 10;">
+         <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="650.0" style="-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589); -fx-background-radius: 10 10 0 0;">
+               <padding>
+                  <Insets left="15.0" />
+               </padding>
+               <children>
+                  <Label fx:id="tagCityBuilder112" text="#POBLATION" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="65.0" prefWidth="200.0" spacing="15.0">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="65.0" prefWidth="50.0" spacing="8.0" style="-fx-background-radius: 10; -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589);">
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <children>
+                        <Rectangle arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="25.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="25.0" />
+                        <TextField fx:id="tfMaxPoblation" editable="false">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </TextField>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="65.0" prefWidth="50.0" spacing="8.0" style="-fx-background-radius: 10; -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589);">
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <children>
+                        <Rectangle arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="25.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="25.0" />
+                        <TextField fx:id="tfAvaiablePoblation" editable="false">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </TextField>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="65.0" prefWidth="50.0" spacing="8.0" style="-fx-background-radius: 10; -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589);">
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <children>
+                        <Rectangle arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="25.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="25.0" />
+                        <Spinner fx:id="spnBonusPoblation" prefWidth="40.0" />
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox layoutX="1060.0" layoutY="565.0" prefHeight="130.0" prefWidth="195.0" spacing="8.0" style="-fx-background-color: #F9DAA4; -fx-background-radius: 10;">
+         <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="650.0" spacing="15.0" style="-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589); -fx-background-radius: 10 10 0 0;">
+               <padding>
+                  <Insets left="15.0" />
+               </padding>
+               <children>
+                  <Label fx:id="tagCityBuilder1121" text="#POBLATION" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="60.0" prefWidth="200.0" spacing="5.0">
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefHeight="60.0" prefWidth="90.0" spacing="10.0" style="-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589); -fx-background-radius: 10;">
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <children>
+                        <Rectangle fx:id="iconPlow" arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="50.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="50.0" />
+                        <CheckBox fx:id="ckbPlow" mnemonicParsing="false" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="60.0" prefWidth="90.0" spacing="10.0" style="-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #213660, #2E5589); -fx-background-radius: 10;">
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <children>
+                        <Rectangle fx:id="iconBunks" arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="50.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="50.0" />
+                        <CheckBox fx:id="ckbBunks" mnemonicParsing="false" />
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

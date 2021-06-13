@@ -1,0 +1,19 @@
+{
+    "farm" : 23,
+    "timber" : 18,
+    "silver_mine" : 18,
+    "quarry" : 18,
+    "harbor" : 10,
+    "barracks" : 16,
+    "academy" : 10,
+    "temple" : 10,
+    "city_wall" : 0,
+    "warehouse" : 23,
+    "market" : 8,
+    "cave" : 5,
+    "senate" : 16,
+    "units" : [{
+        "type" : "chariot",
+        "number" : 8
+    }]
+}
